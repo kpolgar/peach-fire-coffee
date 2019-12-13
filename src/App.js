@@ -19,7 +19,7 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    const {setCurrentUser} = this.props;
+    const {setCurrentUser } = this.props;
 
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
     if(userAuth) {
@@ -33,6 +33,7 @@ class App extends React.Component {
       });
     }
    else {setCurrentUser(userAuth)}
+
     });
   }
 
@@ -47,7 +48,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
-          <Route path='/checkout' component={CheckoutPage} />
+          <Route exact path='/checkout' component={CheckoutPage} />
           <Route 
             exact 
             path='/signin' 
@@ -67,7 +68,7 @@ class App extends React.Component {
 }
 //similar to passing state to props
 const mapStateToProps = createStructuredSelector ({
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
 })
 //similar to passing setState to props because now redux handles that
 const mapDispatchToProps = dispatch => ({
