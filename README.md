@@ -10,11 +10,14 @@ Peach-Fire is a full stack e-commerce web app with navigation and routing, a fun
 * HTML5
 * CSS3
 * React.js
+* SASS
+* Styled Components
 
 ### Back-End
 * Node.js
 * Express.js
-*Firebase (database)
+* Firebase
+
 
 ### NPM Packages
 * Create-React-App
