@@ -1,0 +1,27 @@
+## Peach-Fire Clothing
+Peach-Fire is a full stack e-commerce web app with navigation and routing, a functioning cart and checkout page, and integration with Stripe API. Peach fire leverages firebase to handle authentication and storage.
+
+<a href="https://peach-live.herokuapp.com/">Check it out on Heroku</a>
+
+![picture of the app](https://github.com/kpolgar/peach-fire-clothing/blob/master/peach-fire.png)
+
+## Technologies Used
+### Front-End
+* HTML5
+* CSS3
+* React.js
+
+### Back-End
+* Node.js
+* Express.js
+*Firebase (database)
+
+### NPM Packages
+* Create-React-App
+* Bcrypt
+* Body parser
+* Cors
+* Express
+
+### APIs
+* Stripe API
