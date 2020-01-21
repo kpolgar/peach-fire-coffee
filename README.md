@@ -1,5 +1,5 @@
 ## Peach-Fire Clothing
-Peach-Fire is a full stack e-commerce web app with navigation and routing, a functioning cart and checkout page, and integration with Stripe API. Peach fire leverages firebase to handle authentication and storage.
+Peach-Fire is a full stack e-commerce web app with navigation and routing, a functioning cart and checkout page, and integration with Stripe API. Peach fire leverages Firebase to handle user authentication and storage.
 
 <a href="https://peach-live.herokuapp.com/">Check it out on Heroku</a>
 
