@@ -10,15 +10,20 @@ import { signOutStart } from '../../redux/user/user.actions';
 
 import { ReactComponent as Logo } from '../../assets/peach.svg';
 
-import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './header.styles'
+import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink, TitleContainer, ClickOptions } from './header.styles'
 
 const Header = ({ currentUser, hidden, signOutStart }) => (
   <HeaderContainer>
     <LogoContainer to='/'>
       <Logo className='logo' />
     </LogoContainer>
+    
     <OptionsContainer>
-      <OptionLink to='/shop'>SHOP</OptionLink>
+      <TitleContainer>
+      <h1>Peach Fire Clothing</h1>
+    </TitleContainer>
+    <ClickOptions>
+      <OptionLink to='/shop'>STORE</OptionLink>
       {currentUser ? (
         <OptionLink to='' as='div' onClick={signOutStart}>
           SIGN OUT
@@ -26,7 +31,8 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
       ) : (
         <OptionLink to='/signin'>SIGN IN</OptionLink>
       )}
-      <CartIcon />
+        <CartIcon />
+      </ClickOptions>
     </OptionsContainer>
     {hidden ? null : <CartDropdown />}
   </HeaderContainer>
