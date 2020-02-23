@@ -20,7 +20,7 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
     
     <OptionsContainer>
       <TitleContainer>
-      <h1>Peach Fire Clothing</h1>
+      <h1>Peach Fire Coffee</h1>
     </TitleContainer>
     <ClickOptions>
       <OptionLink to='/shop'>STORE</OptionLink>

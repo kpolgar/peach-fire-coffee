@@ -59,7 +59,7 @@ export const OptionLink = styled(Link)`
 
 export const TitleContainer = styled.div`
 @import url("https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap");
-    color: #e74c3c;
+    color: #221c17;
     font-size: 1.3vw;
     font-family: 'Architects Daughter', sans-serif;
     letter-spacing: 0.2em;

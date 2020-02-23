@@ -1,36 +1,36 @@
 const INITIAL_STATE = {
     sections: [
         {
-          title: 'hats',
-          imageUrl: 'https://images.unsplash.com/photo-1579542145952-05fd27275991?ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80',
+          title: 'accessories',
+          imageUrl: 'https://images.unsplash.com/photo-1524686788093-aa1f9c0f7c4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
           id: 1,
-          linkUrl: 'shop/hats'
+          linkUrl: 'shop/accessories'
         },
         {
-          title: 'jackets',
-          imageUrl: 'https://images.unsplash.com/photo-1521053432093-b5d85e9f0946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1533&q=80',
+          title: 'mugs',
+          imageUrl: 'https://images.unsplash.com/photo-1472517990513-4f22ae253bd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80',
           id: 2,
-          linkUrl: 'shop/jackets'
+          linkUrl: 'shop/mugs'
         },
         {
-          title: 'sneakers',
-          imageUrl: 'https://images.unsplash.com/photo-1549971352-c31ced98e984?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
+          title: 'treats',
+          imageUrl: 'https://images.unsplash.com/photo-1526823127573-0fda76b6c24f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
           id: 3,
-          linkUrl: 'shop/sneakers'
+          linkUrl: 'shop/treats'
         },
         {
-          title: 'women\'s',
-          imageUrl: 'https://images.unsplash.com/photo-1511242962912-ba18dcf39f30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+          title: 'coffee',
+          imageUrl: 'https://images.unsplash.com/photo-1444418185997-1145401101e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1091&q=80',
           size: 'large',
           id: 4,
-          linkUrl: 'shop/womens'
+          linkUrl: 'shop/coffee'
         },
         {
-          title: 'men\'s',
-          imageUrl: 'https://images.unsplash.com/photo-1553988198-6500949e8dd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=679&q=80',
+          title: 'Tea',
+          imageUrl: 'https://images.unsplash.com/photo-1536998003793-b13c28fae74b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80',
           size: 'large',
           id: 5,
-          linkUrl: 'shop/mens'
+          linkUrl: 'shop/tea'
         }
       ]
 };

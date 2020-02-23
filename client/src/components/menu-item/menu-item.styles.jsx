@@ -49,7 +49,7 @@ export const ContentContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffe7dc;
+  background-color: #ffffff;
   opacity: 0.7;
   position: absolute;
   border-radius: 5px;
