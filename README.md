@@ -5,8 +5,6 @@ Peach-Fire Coffee is a full stack e-commerce web app with navigation and routing
 
 ![picture of the app](https://github.com/kpolgar/peach-fire-clothing/blob/master/peach_fire_coffee.png)
 
-![demo of the app](https://github.com/kpolgar/peach-fire-coffee/blob/master/peach-fire-coffee.gif)
-
 ## Technologies Used
 ### Front-End
 * HTML5
